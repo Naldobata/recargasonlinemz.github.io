@@ -66,6 +66,7 @@ main > h1, h2 {
     grid-template-rows: auto auto auto auto;
     align-items: center;
     justify-items: center;
+    justify-content: space-evenly;
 
 }
 
