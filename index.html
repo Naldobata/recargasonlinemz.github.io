@@ -1,144 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Unlock&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Unlock&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
     <title>RECARGAS ONLINE MZ</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="menu" class="">
+      <ul>
+        <a href="#">
+          <li>Formas de pagamento</li>
+        </a>
+        <a href="#">
+          <li id="categorias">Categorias</li>
+          <select name="" id="">
+            <option selected disabled> Categorias</option>
+            <option>Streaming<option>
+            <option>Musica</option>
+            
+          </select>
+        </a>
+        <a href="#">
+          <li>Sobre Nos</li>
+        </a>
+      </ul>
+    </div>
+    <header>
+      <div>
+        <i class="fa-solid fa-bars" id="btn">PU</i>
+      </div>
 
-    <header>     
-        <div>
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
-        <div>
-            <h1 style="font-family: Unlock, serif; font-size: 30px;">Recargas Online MZ</h1>
-        </div>
+      <div>
+        <h1 style="font-family: Unlock, serif; font-size: 30px">
+          Recargas Online MZ
+        </h1>
+      </div>
     </header>
 
-     <hr id="header">
+    <hr id="header" />
 
     <main>
+      <h1 id="st">Streaming</h1>
 
+      <div class="principal">
+        <div class="produto left" id="netflix">
+          <div>
+            <img src="imagens/netflix.png" id="produto" style="height: 120px" />
+          </div>
+          <div>NETFLIX</div>
+        </div>
 
-        <h1>Streaming</h1>
+        <div class="produto rigth" id="prime">
+          <div>
+            <img
+              src="imagens/primevideo.png"
+              id="produto"
+              style="height: 110px"
+            />
+          </div>
+          <div>PRIME VIDEO</div>
+        </div>
 
-        <div class="principal">
-            <div class="produto">
-                <div>
-                    <img src="imagens/netflix.png"  id="produto" style="height: 120px;">
+        <div class="produto left" id="disneyplus">
+          <div>
+            <img
+              src="imagens/disneyplus.webp"
+              id="produto"
+              style="width: 120px"
+            />
+          </div>
+          <div>DISNEP PLUS</div>
+        </div>
+      </div>
 
-                </div>
-                <div>
-                    NETFLIX
-                </div>
-            </div> 
-            
-            <div class="produto">
-                <div>
-                    <img src="imagens/primevideo.png"  id="produto" style="height: 110px;">
+      <h1 id="mu">Música</h1>
 
-                </div>
-                <div>
-                    PRIME VIDEO
-                </div>
-            </div> 
+      <div class="principal">
+        <div class="produto left" id="spotify">
+          <div>
+            <img id="produto" src="imagens/spotify.png" style="width: 90px" />
+          </div>
+          <div>SPOTIFY</div>
+        </div>
 
-             <div class="produto">
-                <div>
-                    <img src="imagens/disneyplus.webp"  id="produto" style="width: 120px;">
+        <div class="produto rigth" id="applemusic">
+          <div>
+            <img
+              src="imagens/applemusic.png"
+              id="produto"
+              style="height: 120px"
+            />
+          </div>
+          <div>APPLE MUSIC</div>
+        </div>
+      </div>
 
-                </div>
-                <div>
-                    DISNEP PLUS
-                </div>
-            </div> 
+      <h1>Jogos</h1>
 
-                      
-        </div> 
-
-        <h1>Música</h1>
-
-         <div class="principal">
-            <div class="produto">
-                <div >
-                    <img id="produto" src="imagens/spotify.png" style="width: 90px;">
-
-                </div>
-                <div>
-                    SPOTIFY
-                </div>
+      <section class="games" id="games">
+        <div class="principal" id="jogos">
+          <div class="produto left">
+            <div>
+              <img
+                id="produto"
+                src="imagens/playstation.png"
+                style="width: 160px"
+              />
             </div>
-            
-            <div class="produto">
-                <div>
-                    <img src="imagens/applemusic.png"  id="produto" style="height: 120px;">
-
-                </div>
-                <div>
-                    APPLE MUSIC
-                </div>
-            </div> 
-        </div> 
-
-        <h1>Jogos</h1>
-
-        <div class="principal">
-            <div class="produto">
-                <div >
-                    <img id="produto" src="imagens/playstation.png" style="width: 160px;">
-
-                </div>
-                <div>
-                    PLAYSTATION
-                </div>
+            <div>PLAYSTATION</div>
+          </div>
+          <div class="produto rigth">
+            <div>
+              <img
+                src="imagens/xbox.png"
+                id="produto"
+                style="height: 85px; border-radius: 10px"
+              />
             </div>
-            
-            <div class="produto">
-                <div>
-                    <img src="imagens/xbox.png"  id="produto" style="height: 85px; border-radius: 10px;">
-
-                </div>
-                <div>
-                    XBOX
-                </div>
-            </div> 
-
-            <div class="produto">
-                <div>
-                    <img src="imagens/freefire.png"  id="produto" style="height: 85px; border-radius: 10px;">
-
-                </div>
-                <div>
-                    FREE FIRE 
-                </div>
-            </div> 
-        </div> 
-
-
-
-
+            <div>XBOX</div>
+          </div>
+          <div class="produto left">
+            <div>
+              <img
+                src="imagens/freefire.png"
+                id="produto"
+                style="height: 85px; border-radius: 10px"
+              />
+            </div>
+            <div>FREE FIRE</div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <footer>
-     
-        <p>
-            <i class="fa-regular fa-copyright"></i> 2025  <strong>Recargas Online MZ</strong> | Todos os direitos reservados.
-        </p>
-        
-
+      <p>
+        <i class="fa-regular fa-copyright"></i> 2025
+        <strong>Recargas Online MZ</strong> | Todos os direitos reservados.
+      </p>
     </footer>
-    
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
